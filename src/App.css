@@ -32,7 +32,24 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.disph1 {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.disph5 {
+  font-family: '"Montserrat", Sans-serif';
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  color: whitesmoke;
 }
