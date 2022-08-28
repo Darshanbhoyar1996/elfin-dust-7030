@@ -4,11 +4,11 @@ import { BrowserRouter } from "react-router-dom";
 import AllRoutes from './AllRoutes';
 function App() {
   return (
-    <div className="a">
-    
-    <BrowserRouter>
-    <AllRoutes/>
-  </BrowserRouter>
+    <div>
+
+      <BrowserRouter>
+        <AllRoutes />
+      </BrowserRouter>
     </div>
   );
 }
