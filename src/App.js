@@ -1,16 +1,14 @@
 import React from 'react';
 import './App.css';
-import DisplayCard from './components/DisplayCard';
-import Navbar from './components/Navbar';
-import Workoutneed from './components/Workoutneed';
-
+import { BrowserRouter } from "react-router-dom";
+import AllRoutes from './AllRoutes';
 function App() {
   return (
     <div className="a">
     
-        <Navbar/>
-        <DisplayCard/>
-        <Workoutneed/>
+    <BrowserRouter>
+    <AllRoutes/>
+  </BrowserRouter>
     </div>
   );
 }
